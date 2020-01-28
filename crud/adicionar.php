@@ -1,5 +1,5 @@
 <?php
-    # Header
+    // Header
     include_once 'includes/header.php';
 ?>
 

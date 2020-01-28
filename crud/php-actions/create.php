@@ -1,7 +1,7 @@
 <?php
-    # seção
+    // seção
     session_start();
-    #conexão
+    // conexão
     require_once 'db_connect.php';
 
     if(isset($_POST['btn-cadastrar'])){

@@ -1,9 +1,9 @@
 <?php
-    # Conexão BD
+    // Conexão BD
     include_once 'php-actions/db_connect.php';
-    # Header
+    // Header
     include_once 'includes/header.php';
-    # Message
+    // Message
     include_once 'includes/message.php';
 ?>
 
@@ -32,7 +32,7 @@
                         <td><?php echo $dados['sobrenome']; ?></td>
                         <td><?php echo $dados['email']; ?></td>
                         <td><?php echo $dados['idade']; ?></td>
-                        <td><a href="" class="btn-floating orange"><i class="material-icons">edit</i></a></td>
+                        <td><a href="editar.php?id=<?php echo $dados['id']; ?>" class="btn-floating orange"><i class="material-icons">edit</i></a></td>
                         <td><a href="" class="btn-floating red"><i class="material-icons">delete</i></a></td>
                     </tr>
                     <?php endwhile; ?>

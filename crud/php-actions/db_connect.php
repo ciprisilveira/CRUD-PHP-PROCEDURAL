@@ -1,8 +1,8 @@
 <?php
-    # coneção com o banco de dados
+    // coneção com o banco de dados
     $servername = "localhost";
     $username = "root";
-    $password = "asdf";
+    $password = "";
     $db_name = "crud";
 
     $connect = mysqli_connect($servername, $username, $password, $db_name);

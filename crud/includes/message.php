@@ -1,6 +1,6 @@
 <?php
 
-# Seção
+// Seção
     session_start();
         if(isset($_SESSION['mensagem'])){ ?>
         <script>
